@@ -145,7 +145,7 @@ if(isset($_POST['username'])){
 				<div class="col-sm-4">
 					<div class="signup-form"><!--sign up form-->
 						<h2>New User Signup!</h2>
-						<form action="login.php" autocomplete="off" method="post">
+						<form action="signup.php" autocomplete="off" method="post">
 							<input type="text" name="username" placeholder="Username"/>
 							<input type="email" name="emailid" placeholder="Email Address"/>
 							<input type="password" name="password" placeholder="Password"/>
